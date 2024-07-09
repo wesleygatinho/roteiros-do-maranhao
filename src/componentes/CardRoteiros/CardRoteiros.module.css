@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardRoteiros{
+    width: 430px;
+    height: 500px;
+    background-color: #FDF6EA;
+}
+
+.infoCard{
+    padding: 6px 16px;
+}
+
+.nomeLugar{
+    font-family: var(--fonteMont);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.valorPreco{
+    font-family: var(--fonteMont);
+    font-size: 20px;
+}
+
+.imagemCard{
+    width: 100%;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botaoVerLugar{
+    padding: 24px 0;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonteMont);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 56.25px;
+    background: #FF8C00;
+    color: #Ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

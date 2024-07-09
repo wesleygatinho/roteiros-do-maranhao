@@ -1,0 +1,8 @@
+.rodape{
+    height: 80px;
+    background-color: #FDF6EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonteFira);
+}

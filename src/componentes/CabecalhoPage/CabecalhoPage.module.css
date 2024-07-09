@@ -1,0 +1,33 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    background-color: #C19C61;
+    color: var(--preto);
+    font-family: var(--fonteFira);
+}
+
+.textoh2{
+    font-weight: 400;
+}
+
+.cabecalho img{
+    width: 10%;
+}
+
+.cabecalho ul{
+    display: flex;
+    gap: 32px;
+    padding: 0 64px;
+}
+.cabecalho li {
+    display: flex;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 22px;
+    font-weight: 400;
+}

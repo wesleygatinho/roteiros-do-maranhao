@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "imagem":"https://www.vaipormim.com/storage/posts/files/4d4c50d77efcf279a0b5c07546ffbd7f08b96040.webp",
+        "descricao": "Lençóis Maranhenses",
+        "atrativo": "Lagoa Azul - Lagoa Bonita - Passeios de Jipe - Caminhada nas Dunas - Caminhada nas Dunas",
+        "valor":"300"
+    },
+    {
+        "id":"2",
+        "imagem":"https://www.gov.br/turismo/pt-br/centrais-de-conteudo/14-06-2016-chapada-das-mesas-jpg",
+        "descricao": "Chapada das Mesas",        
+        "atrativo": "Cachoeira do Itapecuru (Cachoeira Gêmeas) - Cachoeira de Santa Bárbara - Poço Azul",
+        "valor":"700"
+    },
+    {
+        "id":"3",
+        "imagem":"https://oimparcial.com.br/app/uploads/2019/07/0b3a8062e3ddf6364234d846c6ed1782-1024x576.jpg",
+        "descricao": "Cidade Morros",
+        "atrativo": "Pedra da Memória - Poço Verde - Cachoeira do Arruda - Balneário Prainha",
+        "valor":"500"
+    }
+]

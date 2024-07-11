@@ -1,5 +1,6 @@
 import styles from './CardRoteiros.module.css';
 import data from '../../../db.json';
+import { Link } from 'react-router-dom';
 const CardRoteiros = () => {
     return (
         <>
@@ -13,9 +14,9 @@ const CardRoteiros = () => {
                                 <p className={styles.valorPreco}>{item.atrativo}</p>
                             </div>
                             <div className={styles.botao}>
-                            <button className={styles.botaoVerLugar} >
+                            <Link to='/destinos/1' className={styles.botaoVerLugar} >
                                     VER LUGAR
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

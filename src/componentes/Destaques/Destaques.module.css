@@ -32,13 +32,11 @@
     height: 100%;
     position: relative;
     z-index: 1;
-    /* background-color: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent); */
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding: 2%; */
 }
 
 .conteudosdestaques div.textos p {
@@ -66,25 +64,52 @@
     margin: 0;
 }
 
+.textoh1 {
+    overflow: hidden;
+    border-right: .1em solid transparent; /* Default to transparent */
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    animation: typing 3s steps(40, end), blink-caret .99s step-end infinite;
+}
 
-.conteudosdestaques button {
-    padding: 32px 0;
-    width: 290px;
-    height: 90px;
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    10% { border-color: orange; }
+}
+
+
+
+@keyframes blink-caret-h2 {
+    from, to { border-color: transparent; }
+    10% { border-color: orange; }
+}
+
+/* Make sure to hide the caret after typing ends */
+.textoh2.completed {
+    border-right: none; /* Remove caret */
+}
+
+
+.link {
+    width: 250px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--fonteMont);
     font-size: 25px;
     font-weight: 600;
-    line-height: 56.25px;
-
+    text-decoration: none;
 
     background: #FF8C00;
     color: #Ffffff;
-    border: none;
     border-radius: 15px;
-    cursor: pointer;
-    gap: 20px;
+    
 
 }

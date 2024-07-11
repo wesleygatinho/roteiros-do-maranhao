@@ -1,0 +1,93 @@
+.bannerRoteiros{
+    width: 100%;
+    min-width: 60vh;
+}
+
+.conteudos{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.container_imagem{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.textos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.textoh2{
+    color: white;
+    font-size: 40px;
+    font-family: var(--fonteFira);
+    font-weight: 400;
+}
+
+.pesquisar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+
+.pesquisarInput{
+    background: none;
+    border: none;
+    padding: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    transition: 0.4s;
+}
+
+::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: var(--fonteFira);
+}
+
+.tagA{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pesquisar:hover > .pesquisarInput{
+    width: 320px;
+    padding-left: 20px;
+}
+
+.loop_blue{
+    width: 25px;
+    height: 25px;
+}
+
+.loop_white{
+    display: none;
+    width: 25px;
+    height: 25px;
+}

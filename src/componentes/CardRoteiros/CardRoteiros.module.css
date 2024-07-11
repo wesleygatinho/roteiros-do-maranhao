@@ -8,6 +8,11 @@
     width: 430px;
     height: 500px;
     background-color: #FDF6EA;
+    transition: transform .2s;
+}
+
+.cardRoteiros:hover{
+    transform: translate(0, -1rem);
 }
 
 .infoCard{
@@ -36,7 +41,7 @@
     flex-direction: column;
 }
 .botaoVerLugar{
-    padding: 24px 0;
+    text-decoration: none;
     width: 120px;
     height: 50px;
     display: flex;

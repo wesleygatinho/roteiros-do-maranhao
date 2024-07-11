@@ -1,6 +1,6 @@
 import styles from './Destaques.module.css';
 import React from 'react';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Destaques = () => {
@@ -19,9 +19,9 @@ const Destaques = () => {
                         <p>
                             Aqui você pode encontrar os melhores roteiros
                         </p>
-                        <button>VER ROTEIROS
-
-                        </button>
+                        <Link to="/roteiros" className={styles.link}>                            
+                            VER ROTEIROS
+                        </Link>
                     </div>
                 </div>
             </section>

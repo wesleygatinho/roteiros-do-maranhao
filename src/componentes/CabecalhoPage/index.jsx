@@ -16,7 +16,7 @@ const CabecalhoPage = () => {
                             <Link className={styles.links} to='/'>Home</Link>
                         </li>
                         <li>
-                            <Link className={styles.links} to='/favoritos'>Favoritos</Link>
+                            <Link className={styles.links} to='/roteiros'>Roteiros</Link>
                         </li>
                     </ul>
                 </nav>

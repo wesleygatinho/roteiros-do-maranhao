@@ -1,15 +1,16 @@
-import styles from './CardRoteiros.module.css';
+import styles from './CardModelo.module.css'
 import { Link } from 'react-router-dom';
-const CardRoteiros = ({ post }) => {
+const CardModelo = ({ post }) => {
     return (
         <>
+
 
             <div key={post.id} className={styles.cardRoteiros}>
                 <img className={styles.imagemCard} src={post.imagem} alt={post.descricao} />
                 <div className={styles.infoCard}>
-                    <p className={styles.nomeLugar}>{post.descricao}</p>
+                    <p className={styles.nomeLugar}>{post.lugar}</p>
                     <div className={styles.valor}>
-                        <p className={styles.valorPreco}>{post.atrativo}</p>
+                        <p className={styles.valorPreco}>{post.atrativos}</p>
                     </div>
                     <div className={styles.botao}>
                         <Link to={`/destinos/${post.id}`} className={styles.botaoVerLugar} >
@@ -19,8 +20,9 @@ const CardRoteiros = ({ post }) => {
                 </div>
             </div>
 
+
         </>
     )
 }
 
-export default CardRoteiros;
+export default CardModelo;

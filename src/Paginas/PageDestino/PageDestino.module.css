@@ -30,6 +30,7 @@
 .post_markdown_container img {
     display: block;
     margin: 0 auto;
+    width: 50%;
 }
  
 .post_markdown_container ul {

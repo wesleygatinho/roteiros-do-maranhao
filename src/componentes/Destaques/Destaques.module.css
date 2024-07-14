@@ -1,6 +1,6 @@
 .destaques {
     width: 100%;
-    min-width: 100vh;
+    /* min-width: 100vh; */
 }
 
 .conteudosdestaques {
@@ -91,9 +91,9 @@
     10% { border-color: orange; }
 }
 
-/* Make sure to hide the caret after typing ends */
+
 .textoh2.completed {
-    border-right: none; /* Remove caret */
+    border-right: none; 
 }
 
 
@@ -107,10 +107,30 @@
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
-
     background: #FF8C00;
     color: #Ffffff;
     border-radius: 15px;
-    
+}
 
+@media (max-width: 1000px){
+    /* .textos {
+        width: 100%;
+    } */
+
+    .textoh1h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 670px){
+    /* .textos {
+        width: 100%;
+    } */
+
+    .textoh1h2{
+        font-size: 30px;
+    }
+    .conteudosdestaques div.textos p{
+        font-size: 16px;
+    }
 }

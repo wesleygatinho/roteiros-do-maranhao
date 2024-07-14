@@ -1,6 +1,5 @@
 .roteiros{
     background-color: #504128;
-
 }
 
 .conteudo {
@@ -21,4 +20,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+@media (max-width: 1215px){
+    .conteudo {
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 1010px){
+    .conteudo {
+        padding: 20px 20px;
+    }
+
+    .roteirosH1{
+        padding: 32px 20px;
+        /* width: 100%; */
+    }
+
+    .card{
+        justify-content: center;
+        align-items: center;
+    }
 }

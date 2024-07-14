@@ -75,8 +75,11 @@
     border-radius: 50%;
     cursor: pointer;
 }
-
 .pesquisar:hover > .pesquisarInput{
+    width: 320px;
+    padding-left: 20px;
+}
+.pesquisar.active > .pesquisarInput {
     width: 320px;
     padding-left: 20px;
 }

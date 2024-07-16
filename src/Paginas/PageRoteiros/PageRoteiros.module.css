@@ -45,3 +45,15 @@
         align-items: center;
     }
 }
+
+@media (max-width: 900px){
+    .roteirosH1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .roteirosH1{
+        font-size: 32px;
+    }
+}

@@ -1,17 +1,20 @@
 import { Link } from 'react-router-dom';
 import styles from './CabecalhoPage.module.css';
-
+import { useState } from 'react';
+import { FaBars } from 'react-icons/fa';
 const CabecalhoPage = () => {
+    const [menuAberto, setMenuAberto] = useState(false);
+    const toggleMenu = () => {
+        setMenuAberto(!menuAberto);
+    };
     return (
         <>
             <header className={styles.cabecalho}>
-
                 <h2 className={styles.textoh2}>Roteiros do Maranhão</h2>
-
-                <img src='/imagens/bumba.png' alt='Imagem bandeira do maranhão' />
-
+                <img className={styles.imagemBumbaBoi} src='/imagens/bumba.png' alt='Imagem bandeira do maranhão' />
                 <nav className={styles.links__cabecalho}>
-                    <ul>
+                    <FaBars className={styles.menuIcon} onClick={toggleMenu} />
+                    <ul className={menuAberto ? styles.menuAberto : ''}>
                         <li>
                             <Link className={styles.links} to='/'>Home</Link>
                         </li>
@@ -22,7 +25,7 @@ const CabecalhoPage = () => {
                 </nav>
             </header>
         </>
-    )
+    );
 };
 
 export default CabecalhoPage;

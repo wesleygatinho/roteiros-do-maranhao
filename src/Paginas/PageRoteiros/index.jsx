@@ -9,9 +9,7 @@ import { useState } from 'react';
 const PageRoteiros = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const filteredData = data.filter((post) => {
-        return post.lugar.toLowerCase().includes(searchTerm.toLowerCase()),
-        post.atrativos.toLowerCase().includes(searchTerm.toLowerCase()),
-        post.cidade.toLowerCase().includes(searchTerm.toLowerCase());
+        return post.lugar.toLowerCase().includes(searchTerm.toLowerCase())
     });
     return (
         <>

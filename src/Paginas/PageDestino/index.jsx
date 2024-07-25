@@ -18,8 +18,9 @@ const PageDestino = () => {
             <CabecalhoPage />
             <Destino lugar={destino.lugar}
                 cidade={destino.cidade}
-                atrativos={destino.atrativos}
-                fotoDestino={destino.imagem} >
+                localizacao={destino.localizacao}
+                fotoDestino={destino.imagem}
+                 >
                 <div className={styles.post_markdown_container}>
                     <ReactMarkdown>
                         {destino.descricao}

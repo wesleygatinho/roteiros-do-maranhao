@@ -50,12 +50,20 @@
     border-radius: 5px;
 }
  
-.post_markdown_container pre {
+/* .post_markdown_container pre {
     overflow-x: auto;
-}
+} */
 
 @media (max-width: 600px){
     .post_markdown_container img {
         width: 100%;
+    }
+
+    .post_markdown_container h3 {
+        font-size: 2rem;
+    }
+
+    .post_markdown_container p{
+        font-size: 1.2rem;
     }
 }
